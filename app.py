@@ -5,7 +5,7 @@ import streamlit as st
 st.set_page_config(page_title="Order Nhà Hàng", layout="wide") 
 # Đường dẫn file dữ liệu dùng chung trên máy chủ 
 CSV_FILE = "history.csv" 
-# Thực đơn cố định của nhà hàng Mr. Bình 
+# Thực đơn cố định của nhà hàng Mr. Yumi 
 menu = { 
     "Đồ ăn": { 
         "Pizza Hải Sản": 150000, 
